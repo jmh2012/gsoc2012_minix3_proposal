@@ -1,0 +1,32 @@
+bin/cat		WORKING
+bin/chio			UNMET DEPENDENCIES	
+bin/chmod			UNMET DEPENDENCIES
+bin/cp				UNMET DEPENDENCIES
+bin/csh				UNMET DEPENDENCIES
+bin/date			UNMET DEPENDENCIES
+bin/dd				PROBLEM WITH MAKEFILE?
+bin/df				UNMET DEPENDENCIES
+bin/domainname			UNMET DEPENDENCIES
+bin/echo	WORKING
+bin/ed				UNMET DEPENDENCIES
+bin/expr	WORKING
+bin/hostname			UNMET DEPENDENCIES
+bin/kill	WORKING
+bin/ksh				UNMET DEPENDENCIES
+bin/ln		WORKING
+bin/ls				UNMET DEPENDENCIES
+bin/mt				UNMET DEPENDENCIES
+bin/mv				UNMET DEPENDENCIES
+bin/pax			`	FIXED MAKEFILE, UNMET DEPENDENCIES
+bin/ps				UNMET DEPENDENCIES
+bin/pwd		WORKING
+bin/rcmd			ERROR IN MAKEFILE
+bin/rcp				UNMET DEPENDENCIES	'netinet/in_systm.h'
+bin/rm				UNMET DEPENDENCIES
+bin/rmdir	WORKING
+bin/sh				UNMET DEPENDENCIES	'histedit.h'
+bin/sleep			UNMET DEPENDENCIES
+bin/stty			UNMET DEPENDENCIES
+bin/sync	WORKING
+bin/test	WORKING
+
