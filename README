@@ -1,0 +1,7 @@
+
+	For my preliminary work on my Google Summer of Code 2012 proposal to MINIX 3, I have
+chosen to work on NetBSD utilites in the bin/ folder and also a few from usr.bin/. I have worked at figuring out which
+utilities could be ported to MINIX 3 with little or no effort, and which ones had unmet dependencies.
+I also found several utilities with Makefile issues that are easily fixed, and a few utilities with minor bugs.
+
+Jesse Hagewood
