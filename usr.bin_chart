@@ -1,0 +1,2 @@
+usr.bin/paste		WORKING		Bug: calloc error when program is run with no arguments, fixed.
+usr.bin/who		WORKING		
