@@ -1,2 +1,244 @@
-usr.bin/paste		WORKING		Bug: calloc error when program is run with no arguments, fixed.
-usr.bin/who		WORKING		
+usr.bin/apply
+usr.bin/asa			WORKING
+usr.bin/at
+usr.bin/audio
+usr.bin/audiocfg
+usr.bin/awk
+usr.bin/banner			WORKING
+usr.bin/basename		WORKING
+usr.bin/bdes			WORKING
+usr.bin/biff			WORKING		Note: Compiles but needs testing.
+usr.bin/bthset
+usr.bin/btkey
+usr.bin/btpin
+usr.bin/bzip2
+usr.bin/bzip2recover
+usr.bin/cal			WORKING
+usr.bin/calendar
+usr.bin/cap_mkdb
+usr.bin/cdplay
+usr.bin/checknr
+usr.bin/chflags
+usr.bin/chpass
+usr.bin/cksum
+usr.bin/cmp
+usr.bin/col
+usr.bin/colcrt
+usr.bin/colrm			WORKING
+usr.bin/column			WORKING
+usr.bin/comm
+usr.bin/compile_et
+usr.bin/compress
+usr.bin/config
+usr.bin/crontab
+usr.bin/crunch
+usr.bin/csplit
+usr.bin/ctags
+usr.bin/cut
+usr.bin/db
+usr.bin/deroff
+usr.bin/dirname			WORKING
+usr.bin/eject
+usr.bin/elf2aout
+usr.bin/elf2ecoff
+usr.bin/env			WORKING
+usr.bin/error			WORKING		Note: Compiles but needs testing.
+usr.bin/expand
+usr.bin/extattr
+usr.bin/false
+usr.bin/fdformat
+usr.bin/fgen
+usr.bin/find
+usr.bin/finger
+usr.bin/fmt
+usr.bin/fold
+usr.bin/fpr
+usr.bin/from
+usr.bin/fsplit			WORKING
+usr.bin/fstat
+usr.bin/ftp
+usr.bin/gcore
+usr.bin/genassym
+usr.bin/gencat
+usr.bin/getconf
+usr.bin/getent
+usr.bin/getopt
+usr.bin/gprof
+usr.bin/grep			WORKING
+usr.bin/gss
+usr.bin/gzip
+usr.bin/head			WORKING
+usr.bin/hesinfo			WORKING
+usr.bin/hexdump
+usr.bin/hxtool
+usr.bin/iconv
+usr.bin/id			WORKING
+usr.bin/infocmp
+usr.bin/innetgr
+usr.bin/ipcrm
+usr.bin/ipcs
+usr.bin/join			WORKING
+usr.bin/jot
+usr.bin/kdestroy
+usr.bin/kdump
+usr.bin/kgetcred
+usr.bin/kinit
+usr.bin/klist
+usr.bin/krb5-config
+usr.bin/ktrace
+usr.bin/ktruss
+usr.bin/lam
+usr.bin/last
+usr.bin/lastcomm
+usr.bin/ldd
+usr.bin/leave
+usr.bin/less
+usr.bin/lex
+usr.bin/locale
+usr.bin/locate
+usr.bin/lock
+usr.bin/logger
+usr.bin/login
+usr.bin/logname			WORKING
+usr.bin/look
+usr.bin/lorder			WORKING		Note: Just a small shell script.
+usr.bin/machine			WORKING		Note: Just a small shell script.
+usr.bin/mail
+usr.bin/make
+usr.bin/menuc			WORKING
+usr.bin/mesg
+usr.bin/midiplay
+usr.bin/mixerctl
+usr.bin/mk_cmds
+usr.bin/mkcsmapper
+usr.bin/mkesdb
+usr.bin/mkfifo
+usr.bin/mklocale
+usr.bin/mkstr
+usr.bin/mktemp
+usr.bin/mkubootimage
+usr.bin/moduli
+usr.bin/msgc
+usr.bin/msgs
+usr.bin/nbperf
+usr.bin/nbsvtool
+usr.bin/netgroup
+usr.bin/netstat
+usr.bin/newgrp
+usr.bin/newsyslog
+usr.bin/nfsstat
+usr.bin/nice			WORKING
+usr.bin/nl
+usr.bin/nohup
+usr.bin/nvi
+usr.bin/pagesize		NOT WORKING	Note: Just a small shell script, invokes the sysctl util, which isn't in MINIX 3.
+usr.bin/passwd
+usr.bin/paste			WORKING		Bug: calloc error when program is run with no arguments, fixed.
+usr.bin/patch
+usr.bin/pathchk
+usr.bin/pkill
+usr.bin/pmap
+usr.bin/pmc
+usr.bin/pr
+usr.bin/printenv		WORKING
+usr.bin/printf			WORKING
+usr.bin/progress
+usr.bin/pwhash
+usr.bin/qsubst
+usr.bin/quota
+usr.bin/radioctl
+usr.bin/rdist
+usr.bin/renice
+usr.bin/rev			WORKING
+usr.bin/revoke
+usr.bin/rfcomm_sppd
+usr.bin/rlogin
+usr.bin/rpcgen
+usr.bin/rpcinfo
+usr.bin/rs
+usr.bin/rsh
+usr.bin/rump_allserver
+usr.bin/rump_dhcpclient
+usr.bin/rump_halt
+usr.bin/rump_server
+usr.bin/rup
+usr.bin/ruptime
+usr.bin/rusers
+usr.bin/rwall
+usr.bin/rwho
+usr.bin/script
+usr.bin/sdiff
+usr.bin/sdpquery
+usr.bin/shar
+usr.bin/shlock
+usr.bin/shmif_dumpbus
+usr.bin/showmount
+usr.bin/shuffle
+usr.bin/skey
+usr.bin/skeyinfo
+usr.bin/skeyinit
+usr.bin/sockstat
+usr.bin/soelim
+usr.bin/sort
+usr.bin/spell
+usr.bin/split
+usr.bin/string2key
+usr.bin/su
+usr.bin/systat
+usr.bin/tabs
+usr.bin/tail
+usr.bin/talk
+usr.bin/tcopy
+usr.bin/tee
+usr.bin/telnet
+usr.bin/tftp
+usr.bin/time
+usr.bin/tip
+usr.bin/touch
+usr.bin/tpfmt
+usr.bin/tput
+usr.bin/tr
+usr.bin/true
+usr.bin/tset
+usr.bin/tsort
+usr.bin/tty
+usr.bin/ul
+usr.bin/uname
+usr.bin/unexpand
+usr.bin/unifdef
+usr.bin/units
+usr.bin/unvis
+usr.bin/unzip
+usr.bin/usbhidaction
+usr.bin/usbhidctl
+usr.bin/users
+usr.bin/utoppya
+usr.bin/uudecode
+usr.bin/uuencode
+usr.bin/uuidgen
+usr.bin/vacation
+usr.bin/verify_krb5_conf
+usr.bin/vgrind
+usr.bin/videoctl
+usr.bin/vis
+usr.bin/vmstat
+usr.bin/vndcompress
+usr.bin/w
+usr.bin/wall
+usr.bin/wc
+usr.bin/what			WORKING		
+usr.bin/whatis
+usr.bin/whereis
+usr.bin/who			WORKING
+usr.bin/whois			WORKING
+usr.bin/window
+usr.bin/write
+usr.bin/xargs
+usr.bin/xinstall
+usr.bin/xlint
+usr.bin/xstr
+usr.bin/yacc
+usr.bin/yes
+usr.bin/ypcat
+usr.bin/ypmatch
+usr.bin/ypwhich
