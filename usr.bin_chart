@@ -17,68 +17,68 @@ usr.bin/cal			WORKING
 usr.bin/calendar
 usr.bin/cap_mkdb
 usr.bin/cdplay
-usr.bin/checknr
+usr.bin/checknr			WORKING
 usr.bin/chflags
 usr.bin/chpass
 usr.bin/cksum
 usr.bin/cmp
-usr.bin/col
-usr.bin/colcrt
+usr.bin/col			WORKING
+usr.bin/colcrt			WORKING
 usr.bin/colrm			WORKING
 usr.bin/column			WORKING
-usr.bin/comm
+usr.bin/comm			WORKING		
 usr.bin/compile_et
 usr.bin/compress
 usr.bin/config
 usr.bin/crontab
 usr.bin/crunch
-usr.bin/csplit
-usr.bin/ctags
-usr.bin/cut
+usr.bin/csplit			WORKING
+usr.bin/ctags			WORKING
+usr.bin/cut			WORKING
 usr.bin/db
-usr.bin/deroff
+usr.bin/deroff			WORKING
 usr.bin/dirname			WORKING
 usr.bin/eject
-usr.bin/elf2aout
-usr.bin/elf2ecoff
+usr.bin/elf2aout				Note: Builds to m68k/PowerPC.
+usr.bin/elf2ecoff				Note: Builds to MIPS processors.
 usr.bin/env			WORKING
 usr.bin/error			WORKING		Note: Compiles but needs testing.
 usr.bin/expand
 usr.bin/extattr
-usr.bin/false
+usr.bin/false			WORKING		Note: Simple shell script, just exits with 1.
 usr.bin/fdformat
-usr.bin/fgen
+usr.bin/fgen			WORKING		Note: Compiles but needs testing.
 usr.bin/find
 usr.bin/finger
 usr.bin/fmt
-usr.bin/fold
+usr.bin/fold			WORKING
 usr.bin/fpr
-usr.bin/from
+usr.bin/from			WORKING		Note: Compiles but needs testing.
 usr.bin/fsplit			WORKING
 usr.bin/fstat
 usr.bin/ftp
 usr.bin/gcore
-usr.bin/genassym
-usr.bin/gencat
+usr.bin/genassym		WORKING		Note: Shell script, needs more testing.
+usr.bin/gencat			WORKING
 usr.bin/getconf
 usr.bin/getent
-usr.bin/getopt
+usr.bin/getopt			WORKING
 usr.bin/gprof
 usr.bin/grep			WORKING
 usr.bin/gss
 usr.bin/gzip
 usr.bin/head			WORKING
 usr.bin/hesinfo			WORKING
-usr.bin/hexdump
+usr.bin/hexdump			WORKING
 usr.bin/hxtool
-usr.bin/iconv
+usr.bin/iconv			WORKING
 usr.bin/id			WORKING
 usr.bin/infocmp
-usr.bin/innetgr
-usr.bin/ipcrm
+usr.bin/innetgr			WORKING
+usr.bin/ipcrm			
 usr.bin/ipcs
 usr.bin/join			WORKING
-usr.bin/jot
+usr.bin/jot			WORKING
 usr.bin/kdestroy
 usr.bin/kdump
 usr.bin/kgetcred
@@ -87,11 +87,11 @@ usr.bin/klist
 usr.bin/krb5-config
 usr.bin/ktrace
 usr.bin/ktruss
-usr.bin/lam
+usr.bin/lam			WORKING
 usr.bin/last
 usr.bin/lastcomm
 usr.bin/ldd
-usr.bin/leave
+usr.bin/leave			WORKING
 usr.bin/less
 usr.bin/lex
 usr.bin/locale
@@ -150,7 +150,7 @@ usr.bin/radioctl
 usr.bin/rdist
 usr.bin/renice
 usr.bin/rev			WORKING
-usr.bin/revoke
+usr.bin/revoke			NOT WORKING	Note: Missing system call, revoke().
 usr.bin/rfcomm_sppd
 usr.bin/rlogin
 usr.bin/rpcgen
@@ -169,11 +169,11 @@ usr.bin/rwho
 usr.bin/script
 usr.bin/sdiff
 usr.bin/sdpquery
-usr.bin/shar
-usr.bin/shlock
+usr.bin/shar			WORKING		Note: Just a small shell script.
+usr.bin/shlock			WORKING
 usr.bin/shmif_dumpbus
 usr.bin/showmount
-usr.bin/shuffle
+usr.bin/shuffle			WORKING
 usr.bin/skey
 usr.bin/skeyinfo
 usr.bin/skeyinit
@@ -181,15 +181,15 @@ usr.bin/sockstat
 usr.bin/soelim
 usr.bin/sort
 usr.bin/spell
-usr.bin/split
+usr.bin/split			WORKING
 usr.bin/string2key
 usr.bin/su
 usr.bin/systat
 usr.bin/tabs
 usr.bin/tail
 usr.bin/talk
-usr.bin/tcopy
-usr.bin/tee
+usr.bin/tcopy			WORKING
+usr.bin/tee			WORKING
 usr.bin/telnet
 usr.bin/tftp
 usr.bin/time
@@ -197,48 +197,48 @@ usr.bin/tip
 usr.bin/touch
 usr.bin/tpfmt
 usr.bin/tput
-usr.bin/tr
-usr.bin/true
-usr.bin/tset
-usr.bin/tsort
-usr.bin/tty
-usr.bin/ul
+usr.bin/tr			WORKING
+usr.bin/true			WORKING		Note: Just a shell script containing "exit 0".
+usr.bin/tset			
+usr.bin/tsort			WORKING
+usr.bin/tty			WORKING
+usr.bin/ul			WORKING
 usr.bin/uname
-usr.bin/unexpand
-usr.bin/unifdef
-usr.bin/units
-usr.bin/unvis
+usr.bin/unexpand		WORKING
+usr.bin/unifdef			WORKING
+usr.bin/units			WORKING		Note: Looks in the /usr/share/misc/ folder for the units.lib. Simply copy it to that location or run make as root.
+usr.bin/unvis			WORKING
 usr.bin/unzip
 usr.bin/usbhidaction
 usr.bin/usbhidctl
 usr.bin/users
 usr.bin/utoppya
-usr.bin/uudecode
-usr.bin/uuencode
-usr.bin/uuidgen
-usr.bin/vacation
+usr.bin/uudecode		WORKING		Note: Compiles but needs more testing.
+usr.bin/uuencode		WORKING		Note: Compiles but needs more testing.
+usr.bin/uuidgen			WORKING
+usr.bin/vacation		WORKING		Note: Compiles but needs more testing.
 usr.bin/verify_krb5_conf
-usr.bin/vgrind
+usr.bin/vgrind			
 usr.bin/videoctl
-usr.bin/vis
+usr.bin/vis			WORKING
 usr.bin/vmstat
-usr.bin/vndcompress
+usr.bin/vndcompress		WORKING
 usr.bin/w
 usr.bin/wall
-usr.bin/wc
+usr.bin/wc			WORKING
 usr.bin/what			WORKING		
-usr.bin/whatis
+usr.bin/whatis			WORKING
 usr.bin/whereis
 usr.bin/who			WORKING
 usr.bin/whois			WORKING
 usr.bin/window
 usr.bin/write
-usr.bin/xargs
+usr.bin/xargs			WORKING
 usr.bin/xinstall
 usr.bin/xlint
-usr.bin/xstr
+usr.bin/xstr			WORKING
 usr.bin/yacc
-usr.bin/yes
+usr.bin/yes			WORKING
 usr.bin/ypcat
 usr.bin/ypmatch
 usr.bin/ypwhich
