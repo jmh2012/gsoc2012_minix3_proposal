@@ -14,7 +14,7 @@ bin/hostname			UNMET DEPENDENCIES	No sethostname() in MINIX libraries.
 bin/kill	WORKING
 bin/ksh				UNMET DEPENDENCIES	O_EXLOCK in history.c
 bin/ln		WORKING
-bin/ls				UNMET DEPENDENCIES	S_IFWHT in print.c
+bin/ls		WORKING					CHANGES: Defined S_IFWHT as 0160000 in print.c
 bin/mt				UNMET DEPENDENCIES	Identifiers in NetBSD's sys/mtio.h, struct mtget
 bin/mv				UNMET DEPENDENCIES	'sys/extrattr.h'	
 bin/pax			`	UNMET DEPENDENCIES	Also a problem with Makefile.
