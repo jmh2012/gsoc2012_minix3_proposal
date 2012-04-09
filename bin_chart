@@ -1,32 +1,32 @@
 bin/cat		WORKING
-bin/chio			UNMET DEPENDENCIES	
-bin/chmod			UNMET DEPENDENCIES
-bin/cp				UNMET DEPENDENCIES
-bin/csh				UNMET DEPENDENCIES
-bin/date			UNMET DEPENDENCIES
-bin/dd				PROBLEM WITH MAKEFILE?
-bin/df				UNMET DEPENDENCIES
-bin/domainname			UNMET DEPENDENCIES
+bin/chio			UNMET DEPENDENCIES	'sys/chio.h'	
+bin/chmod			UNMET DEPENDENCIES	lchmod() system call
+bin/cp				UNMET DEPENDENCIES	'sys/extrattr.h', SIGINFO not supported by MINIX 3.
+bin/csh				UNMET DEPENDENCIES	'sys/tty.h'
+bin/date			UNMET DEPENDENCIES	No parsedate() function in MINIX libraries. 
+bin/dd				UNMET DEPENDENCIES	SIGINFO, but fixed Makefile.
+bin/df				UNMET DEPENDENCIES	MNT_NOWAIT, MNT_LOCAL, struct statvfs.
+bin/domainname			UNMET DEPENDENCIES	No setdomainname() in MINIX libraries.
 bin/echo	WORKING
-bin/ed				UNMET DEPENDENCIES
+bin/ed				UNMET DEPENDENCIES	MAXINT	
 bin/expr	WORKING
-bin/hostname			UNMET DEPENDENCIES
+bin/hostname			UNMET DEPENDENCIES	No sethostname() in MINIX libraries.
 bin/kill	WORKING
-bin/ksh				UNMET DEPENDENCIES
+bin/ksh				UNMET DEPENDENCIES	O_EXLOCK in history.c
 bin/ln		WORKING
-bin/ls				UNMET DEPENDENCIES
-bin/mt				UNMET DEPENDENCIES
-bin/mv				UNMET DEPENDENCIES
-bin/pax			`	FIXED MAKEFILE, UNMET DEPENDENCIES
-bin/ps				UNMET DEPENDENCIES
+bin/ls				UNMET DEPENDENCIES	S_IFWHT in print.c
+bin/mt				UNMET DEPENDENCIES	Identifiers in NetBSD's sys/mtio.h, struct mtget
+bin/mv				UNMET DEPENDENCIES	'sys/extrattr.h'	
+bin/pax			`	UNMET DEPENDENCIES	Also a problem with Makefile.
+bin/ps				UNMET DEPENDENCIES	'kvm.h'
 bin/pwd		WORKING
 bin/rcmd			ERROR IN MAKEFILE
 bin/rcp				UNMET DEPENDENCIES	'netinet/in_systm.h'
-bin/rm				UNMET DEPENDENCIES
+bin/rm				UNMET DEPENDENCIES	SIGINFO, FTS_WHITEOUT, S_IFWHT, O_SYNC, O_RSYNC.
 bin/rmdir	WORKING
 bin/sh				UNMET DEPENDENCIES	'histedit.h'
-bin/sleep			UNMET DEPENDENCIES
-bin/stty			UNMET DEPENDENCIES
+bin/sleep			UNMET DEPENDENCIES	SIGINFO
+bin/stty			UNMET DEPENDENCIES	Many many identifiers.
 bin/sync	WORKING
 bin/test	WORKING
 
