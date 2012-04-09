@@ -4,11 +4,11 @@ bin/chmod			UNMET DEPENDENCIES	lchmod() system call
 bin/cp				UNMET DEPENDENCIES	'sys/extrattr.h', SIGINFO not supported by MINIX 3.
 bin/csh				UNMET DEPENDENCIES	'sys/tty.h'
 bin/date			UNMET DEPENDENCIES	No parsedate() function in MINIX libraries. 
-bin/dd				UNMET DEPENDENCIES	SIGINFO, but fixed Makefile.
+bin/dd				COMPILES, NO LINK	'Cannot find -lrumpclient' on link. CHANGES: SIGINFO defined as SIGUSR1
 bin/df				UNMET DEPENDENCIES	MNT_NOWAIT, MNT_LOCAL, struct statvfs.
 bin/domainname			UNMET DEPENDENCIES	No setdomainname() in MINIX libraries.
 bin/echo	WORKING
-bin/ed				UNMET DEPENDENCIES	MAXINT	
+bin/ed		WORKING					CHANGES: MAXINT, LONG_MAX, and LONG_MIN defined in ed.h.
 bin/expr	WORKING
 bin/hostname			UNMET DEPENDENCIES	No sethostname() in MINIX libraries.
 bin/kill	WORKING
@@ -25,7 +25,7 @@ bin/rcp				UNMET DEPENDENCIES	'netinet/in_systm.h'
 bin/rm				UNMET DEPENDENCIES	SIGINFO, FTS_WHITEOUT, S_IFWHT, O_SYNC, O_RSYNC.
 bin/rmdir	WORKING
 bin/sh				UNMET DEPENDENCIES	'histedit.h'
-bin/sleep			UNMET DEPENDENCIES	SIGINFO
+bin/sleep	WORKING					CHANGES: NetBSD's SIGINFO changed to SIGUSR1 because of no MINIX equivalent.
 bin/stty			UNMET DEPENDENCIES	Many many identifiers.
 bin/sync	WORKING
 bin/test	WORKING
