@@ -53,7 +53,10 @@ __RCSID("$NetBSD: sleep.c,v 1.24 2011/08/29 14:51:19 joerg Exp $");
 #include <time.h>
 #include <unistd.h>
 
-#define SIGINFO	29	/* For compatibility with MINIX 3 */
+/* MINIX 3 does not have an information request signal (SIGINFO),
+ * so defining SIGINFO with one MINIX's user defined signals.  */
+#define SIGINFO	SIGUSR1	
+
 
 __dead static void alarmhandle(int);
 __dead static void usage(void);
