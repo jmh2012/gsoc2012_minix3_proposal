@@ -1,6 +1,6 @@
 bin/cat		WORKING
 bin/chio			UNMET DEPENDENCIES	'sys/chio.h'	
-bin/chmod			UNMET DEPENDENCIES	lchmod() system call
+bin/chmod	WORKING					CHANGES: Removed option for lchmod mode, which isn't supported by MINIX 3.
 bin/cp				UNMET DEPENDENCIES	'sys/extrattr.h', SIGINFO not supported by MINIX 3.
 bin/csh				UNMET DEPENDENCIES	'sys/tty.h'
 bin/date			UNMET DEPENDENCIES	No parsedate() function in MINIX libraries. 
