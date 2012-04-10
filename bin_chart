@@ -12,7 +12,7 @@ bin/ed		WORKING					CHANGES: MAXINT, LONG_MAX, and LONG_MIN defined in ed.h.
 bin/expr	WORKING
 bin/hostname			UNMET DEPENDENCIES	No sethostname() in MINIX libraries.
 bin/kill	WORKING
-bin/ksh				UNMET DEPENDENCIES	O_EXLOCK in history.c
+bin/ksh				UNMET DEPENDENCIES	O_EXLOCK in history.c, setpgid.
 bin/ln		WORKING
 bin/ls		WORKING					CHANGES: Defined S_IFWHT as 0160000 in print.c
 bin/mt				UNMET DEPENDENCIES	Identifiers in NetBSD's sys/mtio.h, struct mtget
