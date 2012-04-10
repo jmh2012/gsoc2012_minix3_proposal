@@ -3,4 +3,6 @@
 
 The working ports I have are in the bin/ usr.bin/ directories of this repository.
 
+NOTE: Although several of these utilities, such as chmod, were ported during GSoC 2011, I attempted them anyway to get a feel for the porting process.
+
 -Jesse Hagewood
