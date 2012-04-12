@@ -1,7 +1,7 @@
 
-	For my preliminary work on my Google Summer of Code 2012 proposal to MINIX 3, I have chosen to work on NetBSD utilites in the bin/ and usr.bin/ folders. At this early stage, I have mainly focused on porting the utilities that require little or no changes to run on MINIX 3. I have also found several utilities with Makefile issues that are easily fixed, and a few utilities with minor bugs.
+	For my preliminary work on my Google Summer of Code 2012 proposal to MINIX 3, I have chosen to work on NetBSD utilites in the bin/ and usr.bin/ folders, and also get code updated for the utilities/libraries listed in the tools/nbsd_ports file. At this early stage, I have mainly focused on porting the utilities that require little or no changes to run on MINIX 3. I have also found several utilities with Makefile issues that are easily fixed, and a few utilities with minor bugs.
 
-The working ports I have are in the bin/ usr.bin/ directories of this repository.
+The working ports I have in this repository are in the bin/ usr.bin/ directories, and updated code of the libraries and utilities in the tools/nbsd_ports file are located in the updated_ports/ folder.
 
 NOTE: Although several of these utilities, such as chmod, were ported during GSoC 2011, I attempted them anyway to get a feel for the porting process.
 
