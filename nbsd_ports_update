@@ -1,0 +1,31 @@
+common/lib/libc				
+lib/nbsd_libc				
+lib/nbsd_libm				
+lib/libcrypt				
+lib/libterminfo				
+lib/libcurses				
+lib/libutil				
+common/lib/libutil			
+lib/libbz2				
+nbsd_include				
+bin/mkdir		WORKING		
+usr.bin/chpass				
+usr.bin/m4		WORKING		
+usr.bin/indent		WORKING		
+usr.bin/sed				
+usr.bin/stat				
+usr.bin/tic				
+usr.bin/mkdep				
+usr.bin/newgrp				
+usr.bin/uniq		WORKING		
+usr.bin/seq		WORKING		
+usr.bin/man		WORKING		
+usr.bin/apropos		WORKING		
+usr.bin/mdocml				
+usr.sbin/pwd_mkdb			
+usr.sbin/user				
+usr.sbin/vipw				
+usr.bin/bzip2				
+usr.bin/bzip2recover			
+libexec/makewhatis			
+dist/bzip2				
