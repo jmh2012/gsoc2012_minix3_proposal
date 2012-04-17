@@ -4,4 +4,5 @@
 configure script changes:
 -For declaring variables ac_hostname and hostname, used 'hostaddr' instead of 'hostname'.
 
-
+main.cpp seems fine.
+Possible issues with system calls and libraries in the utils/ subfolder.
