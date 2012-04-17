@@ -1,0 +1,7 @@
+-Needs atf as a dependancy.
+-Needs lutok as a dependancy.
+
+configure script changes:
+-For declaring variables ac_hostname and hostname, used 'hostaddr' instead of 'hostname'.
+
+

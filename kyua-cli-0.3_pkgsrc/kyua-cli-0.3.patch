@@ -1,0 +1,24 @@
+diff -rupN kyua-cli-0.3-orig/configure kyua-cli-0.3/configure
+--- kyua-cli-0.3-orig/configure	Mon Apr 16 19:48:35 2012
++++ kyua-cli-0.3/configure	Tue Apr 17 15:43:44 2012
+@@ -545,7 +545,8 @@ exec 6>&1
+ # Name of the host.
+ # hostname on some systems (SVR3.2, old GNU/Linux) returns a bogus exit status,
+ # so uname gets run too.
+-ac_hostname=`(hostname || uname -n) 2>/dev/null | sed 1q`
++# Changed 'hostname' to 'hostaddr' for MINIX 3.
++ac_hostname=`(hostaddr || uname -n) 2>/dev/null | sed 1q`
+ 
+ #
+ # Initializations.
+@@ -1851,7 +1852,8 @@ cat <<_ASUNAME
+ ## Platform. ##
+ ## --------- ##
+ 
+-hostname = `(hostname || uname -n) 2>/dev/null | sed 1q`
++# 'hostaddr' used instead of 'hostname' for MINIX 3.
++hostname = `(hostaddr || uname -n) 2>/dev/null | sed 1q`
+ uname -m = `(uname -m) 2>/dev/null || echo unknown`
+ uname -r = `(uname -r) 2>/dev/null || echo unknown`
+ uname -s = `(uname -s) 2>/dev/null || echo unknown`
+
